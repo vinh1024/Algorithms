@@ -1,0 +1,10 @@
+
+Selection sort:
+	Mục tiêu là tìm vị trí có giá trị nhỏ nhất hoặc lớn nhất trong mảng chưa sắp xếp
+	Sau đó đổi chỗ đưa về đầu mảng hoặc cuối mảng và lờ phần tử đó đi
+
+Insertion sort:
+	Giống ý tưởng xếp bài. khi trong tay đang có 1 quân bài bốc quân 2 lên (duyệt phần tử tiếp) 
+	nếu lớn hơn xếp trước nếu nhỏ hơn xếp sau. (lấy phần tử tiếp theo và duyệt dãy đã xếp để đưa 
+	phần tử đó vào đúng vị trí).
+	điểm mấu chốt là việc phải dịch các phần tử lên để chèn phần tử đang xét vào dãy.
