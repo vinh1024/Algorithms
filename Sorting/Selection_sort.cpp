@@ -22,7 +22,8 @@ int main()
 {
     int n;
     cout << "Nhap vao so phan tu mang: "; cin >> n;
-    int *Input = new int[n];
+    int *Input = NULL;
+    Input = new int[n];
 
     cout << "Nhap cac phan tu mang: ";
     for (int i = 0; i < n; i++)
