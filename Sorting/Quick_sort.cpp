@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib> // Su dung ham ran()
+#include <cstdlib> // Su dung ham rand()
 using namespace std;
 
 void printArray(int A[], int l, int r)
